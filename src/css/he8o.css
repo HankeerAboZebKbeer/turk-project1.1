@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.RiveContainer {
+  position: absolute;
+  top: 10vh; /* Starts right below navbar */
+  left: 0;
+  width: 100%;
+  height: 90vh; /* Takes up the remaining viewport */
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
